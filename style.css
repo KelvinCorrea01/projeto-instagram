@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.google{
+    width: 260px;
+}
+.img-celular{
+    width: 600px;   
+}
+
+.insta1{
+
+    height: 700px;
+    position:absolute;
+    left: 205px;
+    top: 30px;
+}
+
+ .caixa-fomrulario{
+    width: 500px;
+    height: 600px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 50px 40px 20px 40px;
+    display: flex ;
+    flex-direction: column;
+    background-color: #000000;
+    position: relative;
+    margin-bottom: 300px;
+  
+
+}
+
+
+.facebook{
+
+color: #2d69eb;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+cursor: pointer;
+margin-top: 30px;
+margin-bottom: 20px;
+
+}
+
+.senha{
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+       
+
+}
+input{
+
+    height: 36px;
+    margin-top: 5px;
+    border: 1px solid #3f3f3f;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+    color: #5a5a5a;
+    
+
+}
+button{
+
+color: rgb(255, 255, 255);
+background-color: #0095f6;
+border-radius: 5px;
+border: none;
+height: 30px;
+margin-top: 20px;
+cursor: pointer;
+
+
+}
+
+.ou{
+
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.insta_logo{
+
+    margin-bottom: 100px;
+    
+
+}
+
+.nao{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    color: #f3f3f3;
+   margin-top: 700px;
+   position: absolute;
+   margin-left: 600px;
+   padding: 20px 130px 20px 130px;
+   margin-bottom:290px
+
+
+}
+.dispositivos{
+    border: 1px solid black;
+    padding: 10px 30px 60px 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 1210px;
+    margin-top: 1000px;
+    margin-bottom: 300px
+
+}
+.ios{
+
+    width: 260px;
+    
+}
+body{
+    background-color: #000000 ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+.img{
+
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.caixa-img{
+    position:relative;
+
+}
