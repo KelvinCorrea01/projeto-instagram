@@ -2,145 +2,128 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  color: #bdbdbd;
 
 }
-.google{
-    width: 260px;
-}
-.img-celular{
-    width: 600px;   
-}
 
-.insta1{
 
-    height: 700px;
-    position:absolute;
-    left: 205px;
-    top: 30px;
+.container-direito{
+    position: absolute;
+    display: flex;
+    top: 23%;
+    left: 25%;
 }
 
- .caixa-fomrulario{
-    width: 500px;
-    height: 600px;
+.ilustração{
+    width: 550px;
+
+}
+
+.container-esquerdo{
+    position: absolute;
+    display: grid;
+    right: 25%;
+    top: 25%;
+
+}
+
+form{
+    display:grid ;
+    width: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.logo-facebook{
+    width: 20px;
+}
+
+.logo-instagram{
+    width: 200px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.entrar-face{
+    color: rgba(0, 149, 246, 1);
+    margin-bottom: 15px 5px 10px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+span{
+    color: rgba(0, 149, 246, 1);
+    cursor: pointer;
+}
+
+.links-2{
+    text-align: center;
+}
+
+input{
     border: 1px solid rgb(255, 255, 255);
-    padding: 50px 40px 20px 40px;
     display: flex ;
     flex-direction: column;
     background-color: #000000;
     position: relative;
-    margin-bottom: 300px;
-  
-
-}
-
-
-.facebook{
-
-color: #2d69eb;
-font-size: 16px;
-font-weight: bold;
-text-align: center;
-cursor: pointer;
-margin-top: 30px;
-margin-bottom: 20px;
-
-}
-
-.senha{
-    color: #ffffff;
-    text-align: center;
-    cursor: pointer;
-       
-
-}
-input{
-
-    height: 36px;
-    margin-top: 5px;
-    border: 1px solid #3f3f3f;
+    width: 265px;
+    height: 40px;
     border-radius: 5px;
-    outline: none;
-    padding-left: 5px;
-    color: #5a5a5a;
-    
-
+    margin: 7px;
 }
+
 button{
-
-color: rgb(255, 255, 255);
-background-color: #0095f6;
-border-radius: 5px;
-border: none;
-height: 30px;
-margin-top: 20px;
-cursor: pointer;
-
-
-}
-
-.ou{
-
-    color: #ffffff;
-    text-align: center;
-    margin-top: 10px;
-
-}
-.insta_logo{
-
-    margin-bottom: 100px;
-    
-
-}
-
-.nao{
-    border: 1px solid rgb(255, 255, 255);
-    padding: 10px 5px 10px 10px;
-    display: flex;
-    flex-direction: column;
-    color: #f3f3f3;
-   margin-top: 700px;
-   position: absolute;
-   margin-left: 600px;
-   padding: 20px 130px 20px 130px;
-   margin-bottom:290px
-
-
-}
-.dispositivos{
-    border: 1px solid black;
-    padding: 10px 30px 60px 30px;
-    display: flex;
-    align-items: center;
+    margin-top:17px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgba(0, 149, 246, 1);
+    width: 265px;
+    height: 35px;
+    border-radius: 10px;
     cursor: pointer;
+}
+
+.links{
+    margin: 50px;
+
+
+}
+
+.link{
+    cursor: pointer;
+}
+.links-rodape{
     position: absolute;
-    left: 1210px;
-    margin-top: 1000px;
-    margin-bottom: 300px
+    bottom: 100px;
+    text-align: center;
+    left: 27%;
+    font-size: 14px;
 
 }
-.ios{
 
-    width: 260px;
-    
-}
-body{
-    background-color: #000000 ;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
+.idioma{
+position: absolute;
+bottom: 50px;
+left: 43%;
+border: none;
+font-size: 14px;
 
 }
-.img{
 
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-
+.a{
+    margin: 0 10px;
 }
-.caixa-img{
-    position:relative;
 
+.p{
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    width: 500px;
+}
+
+.option{
+    border: none;
 }

@@ -10,56 +10,78 @@
 
 <body>
 
-    <div class="caixa-img">
+    <div class="container-direito">
 
-        <img src="img/insta1.png" class="insta1">
-
-        <img src="img/insta2.png" class="insta1 troca-imagem">
-
-        <img src="img/celular.png" class="img-celular">
-
-        
+        <img src="img/instagram-web-lox-image.png" alt="ilustração" class="ilustração">
 
     </div>
 
-    <div class="caixa-fomrulario">
 
-        <img src="img/insta-logo.png" class="insta_logo">
-     
-        <input placeholder="Telefone,Nome de usuario ou email">
+    <div class="container-esquerdo">
 
-        <input placeholder="Senha" type="password">
+        <form>
+            <div class="logo">
+                <img src="img/insta-logo.png" alt="logo instagram" class="logo-instagram">
+            </div>
+            <input placeholder="  Telefone, nome de usuário ou email" type="email">
+            <input placeholder="  Senha" type="password">
 
-        <button>Entrar</button class="entrar">
-            <a class="ou">____________ ou ____________</a>
+            <button>Entrar</button>
 
-        <a class="facebook">Entrar com facebook</a>
 
-        <a class="senha">Esqueceu a senha ?</a>
 
+        </form>
+
+        <div class="links">
+            <div class="links-2">
+                <img src="img/logo-facebook.png" alt="logo facebook" class="logo-facebook">
+
+                <a class="entrar-face">Entrar com o Facebook</a>
+                <br>
+                <br>
+                <a class="link">Esqueceu a senha ?</a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <a>Não tem uma conta?<span>Cadastre-se</span> </a>
+            </div>
+
+        </div>
 
     </div>
 
-    <div class="dispositivos">
-
-        <img src="img/google.png" class="google">
-
-        <img src="img/ios.png" class="ios">
-
+    <div class="links-rodape">
+        <a> Meta </a>
+        <a class="a"> Sobre </a>
+        <a> Blog</a>
+        <a class="a"> Carreira</a>
+        <a> Ajuda</a>
+        <a class="a"> Api</a>
+        <a> Privacidade</a>
+        <a class="a"> Termos</a>
+        <a> Loacalizações</a>
+        <a class="a"> Intagram lite</a>
+        <a> Theads</a>
+        <a class="a"> Uploads de contatos e não usuários</a>
+        <a> Meta Verified</a>
     </div>
 
-    <div class="nao">
+    <div class="idioma">
+        <form action="/submit-language" method="post" class="option">
+            <label for="language"></label>
+            <select id="language" name="language">
+                <option value="pt">Português (Brasil)</option>
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="de">Alemão</option>
 
-        <p>Não tem uma conta ? Cadastre-se</p>
-
+            </select>
+        </form>
+        <p class="p">© 2025 Instagram from Meta</p>
     </div>
-    
-
-
- 
 
 </body>
-
-<script src="scripts.js"></script>
 
 </html>
